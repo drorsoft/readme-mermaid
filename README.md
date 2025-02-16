@@ -132,8 +132,9 @@ By following these steps, you can easily integrate dynamic and visually appealin
 
 # Using different styles in Mermaid diagrams
 
-[see this link](./examples/styles.md)
-resources:
+[Styling options](./examples/styles.md)
+
+# More resources:
 - https://mermaid-js.github.io/mermaid/#/
 - https://github.blog/developer-skills/github/include-diagrams-markdown-files-mermaid/
 ```
