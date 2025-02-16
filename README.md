@@ -130,7 +130,9 @@ For more information on Mermaid syntax and features, visit the [Mermaid document
 
 By following these steps, you can easily integrate dynamic and visually appealing diagrams into your GitHub `README.md` files.
 
+# Using different styles in Mermaid diagrams
 
+[see this link](./examples/styles.md)
 resources:
 - https://mermaid-js.github.io/mermaid/#/
 - https://github.blog/developer-skills/github/include-diagrams-markdown-files-mermaid/
