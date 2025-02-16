@@ -134,6 +134,16 @@ By following these steps, you can easily integrate dynamic and visually appealin
 
 [Styling options](./examples/styles.md)
 
+
+## Viewing and editing Mermaid diagrams on you ide
+
+Install a plugin for your favorite IDE to view and edit Mermaid diagrams in a more user-friendly way:
+
+- [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
+- [IntelliJ IDEA](https://plugins.jetbrains.com/plugin/10456-mermaid-diagrams)
+
+You can edit mermaid files or md files with mermaid diagrams in them.
+
 # More resources:
 - https://mermaid-js.github.io/mermaid/#/
 - https://github.blog/developer-skills/github/include-diagrams-markdown-files-mermaid/
