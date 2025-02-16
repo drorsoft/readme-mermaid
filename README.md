@@ -44,6 +44,59 @@ graph TD;
 - `B-->D;` creates a link from node B to node D.
 - `C-->D;` creates a link from node C to node D.
 
+## Sequence Diagrams
+
+You can also create sequence diagrams using Mermaid. Here is an example:
+
+```markdown
+    
+# Example Sequence Diagram
+```mermaid
+sequenceDiagram
+participant Alice
+participant Bob
+Alice->>John: Hello John, how are you?
+loop HealthCheck
+John->>John: Fight against hypochondria
+end
+Note right of John: Rational thoughts <br/>prevail!
+John-->>Alice: Great!
+John->>Bob: How about you?
+Bob-->>John: Jolly good!
+
+```
+ 
+
+Result:
+```mermaid
+sequenceDiagram
+participant Alice
+participant Bob
+Alice->>John: Hello John, how are you?
+loop HealthCheck
+John->>John: Fight against hypochondria
+end
+Note right of John: Rational thoughts <br/>prevail!
+John-->>Alice: Great!
+John->>Bob: How about you?
+Bob-->>John: Jolly good!
+```
+
+### State Diagrams
+
+```mermaid
+---
+title: Simple sample
+---
+stateDiagram-v2
+    [*] --> Still
+    Still --> [*]
+
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
+```
 ## Additional Resources
 
 For more information on Mermaid syntax and features, visit the [Mermaid documentation](https://mermaid-js.github.io/mermaid/#/).
